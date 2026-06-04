@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Read2Fluency — Graded Readers</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <div class="hero-content">
+        <h1>Read2Fluency</h1>
+        <p>Find graded readers with Amazon links and filter by language, CEFR level, and genre.</p>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <div class="control-item">
+          <label for="languageSelect">Language</label>
+          <select id="languageSelect"></select>
+        </div>
+        <div class="control-item">
+          <label for="levelSelect">CEFR Level</label>
+          <select id="levelSelect">
+            <option value="all">All Levels</option>
+            <option value="A1">A1</option>
+            <option value="A2">A2</option>
+            <option value="B1">B1</option>
+            <option value="B2">B2</option>
+            <option value="C1">C1</option>
+            <option value="C2">C2</option>
+          </select>
+        </div>
+        <div class="control-item">
+          <label for="genreSelect">Genre</label>
+          <select id="genreSelect">
+            <option value="all">All Genres</option>
+            <option value="fiction">Fiction</option>
+            <option value="nonfiction">Nonfiction</option>
+            <option value="mystery">Mystery</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="historical">Historical</option>
+          </select>
+        </div>
+      </section>
+
+      <section id="booksSection">
+        <div class="empty-state" id="emptyState">Select a language to see graded readers.</div>
+        <div class="book-grid" id="bookGrid"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Created for language learners interested in graded readers.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
