@@ -3,23 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Read2Fluency — Graded Readers</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>Read2Fluency — Arabic Graded Readers</title>
+    <link rel="stylesheet" href="../styles.css" />
   </head>
   <body>
     <header class="hero">
       <div class="hero-content">
-        <h1>Read2Fluency</h1>
-        <p>Find graded readers and filter by language, CEFR level, and genre.</p>
+        <h1>Read2Fluency — Arabic</h1>
+        <p>Graded Arabic readers filtered by CEFR level and genre.</p>
       </div>
     </header>
 
     <main class="container">
+      <nav class="language-nav">
+        <a href="../index.html">← Back to All Languages</a>
+      </nav>
+
       <section class="controls">
-        <div class="control-item">
-          <label for="languageSelect">Language</label>
-          <select id="languageSelect"></select>
-        </div>
         <div class="control-item">
           <label for="levelSelect">CEFR Level</label>
           <select id="levelSelect">
@@ -46,7 +46,7 @@
       </section>
 
       <section id="booksSection">
-        <div class="empty-state" id="emptyState">Select a language to see graded readers.</div>
+        <div class="empty-state" id="emptyState">No Arabic graded readers found.</div>
         <div class="book-grid" id="bookGrid"></div>
       </section>
     </main>
@@ -55,6 +55,7 @@
       <p>Created for language learners interested in graded readers.</p>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
+    <script src="arabic-script.js"></script>
   </body>
 </html>

@@ -2,6 +2,12 @@ const languages = [
   { code: 'en', name: 'English' },
   { code: 'es', name: 'Spanish' },
   { code: 'fr', name: 'French' },
+  { code: 'it', name: 'Italian' },
+  { code: 'zh', name: 'Mandarin' },
+  { code: 'ru', name: 'Russian' },
+  { code: 'fa', name: 'Farsi' },
+  { code: 'ar', name: 'Arabic' },
+  { code: 'hi', name: 'Hindi' },
   { code: 'de', name: 'German' }
 ];
 
